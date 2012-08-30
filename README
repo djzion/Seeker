@@ -1,0 +1,10 @@
+Seeker is a mobile web multiplayer mystery game inspired by Clue and Assasin.  It utilizes django and jQuery mobile.  You may play by yourself with a variable number of computer players, or invite friends to join a game.  More players make the game harder and longer (but the CPUs are not very smart right now).
+
+To Install (from clue)
+
+pip -r requirements.txt
+mkdir logs 777
+python manage.py syncdb
+python loaddata seeker/fixtures/seeker.json
+
+Seeker was created by a small group of 2011-2012 students in Northeastern University's Multimedia Capstone course.
